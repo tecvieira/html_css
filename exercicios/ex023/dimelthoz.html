@@ -14,6 +14,7 @@
             border-collapse: collapse;
             width: 700px;
             position: relative;
+            margin: auto;
         }
         caption {
            
@@ -37,6 +38,7 @@
         tfoot > tr > td{
             background-color: rgb(71, 148, 170);
             font-weight: bold;
+            text-align: center;
         }
         thead, tfoot{
             background-color: lightgray;
@@ -55,7 +57,7 @@
             <tr>
                 <th scope="col">Tipo de Material</th>
                 <th scope="col">Código</th>
-                <th>Aplicação</th>
+                <th scope="col">Aplicação</th>
             </tr>
         </thead>
         <tbody>
@@ -108,7 +110,7 @@
         <tfoot>
             <tr>
                 <th scope="row">Total de Componentes listados</th>
-                <td>009</td>
+                <td colspan="2">009</td>
             </tr>
         </tfoot>
     </table>
