@@ -6,14 +6,27 @@
     <title>Formulario 06</title>
 </head>
 <body>
+    <h1>Aprendendo Formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
+        <div>
+            <label for="icor">Cor:</label>
+            <input type="color" name="Cor" id="icor">
+        </div>
 
+        <p>
+            <label for="inivel">Nível de Satisfação</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="10" value="5">
+        </p>
+
+        <div>
+            <label for="ifoto">Foto:</label>
+            <input type="file" name="Foto" id="ifoto">
+        </div>
 
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
     </form>
-    
 </body>
 </html>
