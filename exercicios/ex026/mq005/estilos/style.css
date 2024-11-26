@@ -10,7 +10,7 @@ html, body {
 }
 
 header{
-    background-color: rgb(148, 148, 148);
+    background-image: linear-gradient(to bottom, rgb(207, 202, 202), rgb(48, 48, 48));
 }
 
 header > h1{
