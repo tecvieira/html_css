@@ -16,6 +16,59 @@ header, section.normal{
     padding: 20px;
 }
 
-article.flex-content{
+p, h1, h2{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+article.media-text{
     padding: 20px;
+}
+
+article.text-media{
+    padding: 20px;
+}
+
+section.flex-content{
+    background-color: rgb(156, 156, 156);
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+/* Este comando é apenas para delimitar as caixas depois retire */
+section > article{
+    border: 2px dashed green;
+}
+
+article.text-media{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.text-media{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+
+}
+article > div.text{
+    flex: 1 1 500px;
+    border: 2px dashed blue;
+}
+
+article > div.media{
+    flex: 1 1 400px;
+    border: 2px dashed red;
+}
+
+div.media > img{
+    display: block;
+    margin: auto;
+}
+
+div.media > iframe{
+    display: block;
+    margin: auto;
 }
