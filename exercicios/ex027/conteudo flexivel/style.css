@@ -43,6 +43,7 @@ article.text-media{
 article.media-text{
     display: flex;
     flex-flow: row wrap-reverse;
+    justify-content: space-between;
 }
 
 /* Este comando é apenas para delimitar as caixas depois retire
@@ -51,7 +52,7 @@ section > article{
 } */
 
 article > div.text{
-    flex: 1 0 500px;
+    flex: 1 1 500px;
     /* border: 2px dashed blue; */
 }
 
