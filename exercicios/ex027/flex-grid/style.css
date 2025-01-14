@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px 100px 100px;
+    text-align: center;
+    grid-gap: 5px;
+}
+
+div.item{
+    background-color: aquamarine;
+}
+
